@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "bluebird": "^3.7.1",
-    "jdbc": "^0.6.4",
+    "jdbc": "^0.7.1",
     "lodash": "^4.17.15",
     "winston": "^2.4.4"
   },
