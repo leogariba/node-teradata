@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "bluebird": "^3.7.1",
+    "dotenv": "^8.2.0",
     "jdbc": "^0.7.5",
     "lodash": "^4.17.15",
     "winston": "^2.4.4"
