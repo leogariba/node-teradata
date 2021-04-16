@@ -1,6 +1,7 @@
 
-const Teradata = require("../index");
 require('dotenv').config()
+var Teradata = require("../index");
+
 var config = {
     url: `jdbc:teradata://${process.env.DB_HOST}/CHARSET=UTF8`,
     username: process.env.DB_USER,

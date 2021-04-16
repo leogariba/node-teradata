@@ -1,4 +1,4 @@
-const teradata = require("./db")
+var teradata = require("./db")
 
 let selectContribuinte = (cnpj) => {
     let sql = `SELECT * FROM P_ACCDB.DIM_PESSOA WHERE NU_CNPJ = ${cnpj}`;
